@@ -22,6 +22,16 @@ button:focus, input:focus {
     opacity: 0.8;
 }
 
+/* Transitions */
+.fade-enter-active {
+	transition: opacity .5s;
+}
+
+.fade-enter, .fade-leave-active {
+	opacity: 0;
+}
+
+
 /* Sections */
 
 html, body {
